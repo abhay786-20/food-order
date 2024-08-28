@@ -10,7 +10,7 @@ import (
 // just beautifying my code :P
 func displayGeneratingBill() {
 	fmt.Println()
-	billDisplayText := "************************************* Generating Bill *************************************"
+	billDisplayText := "************************************* Generating Bill With Taxes *************************************"
 	for _, element := range billDisplayText {
 		fmt.Printf("%c", element) // if you use "%v" instead of "%c" then convert element into string, as shown in the comment below
 		// fmt.Print("%v", string(element))
